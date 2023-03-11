@@ -23,7 +23,7 @@
 }
 
 #menu .menu-icon .checker:focus {
-  background-color:none;
+  background-color: #00000000;
 
 #menu .menu-icon .hamburger {
   position: relative;
