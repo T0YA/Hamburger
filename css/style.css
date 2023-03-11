@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+#welcome {
+  background: url(https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/cover;
+  height: 100vh;
+  padding: 4rem;
+  color: #fff;
+}
+
+#welcome::before {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--primary-color);
+  z-index: 0;
+
+}
+
+#welcome .content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#welcome .content h1 {
+  font-size: 4rem;
+
+}
+
+#welcome .content p {
+  max-width: 860px
+}
+
+#welcome .content a.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 12px 20px;
+  margin-top: 1.3rem;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+#welcome .content a.btn:hover {
+  background-color: #615f7766;
+  border-radius: 4px;
+}
