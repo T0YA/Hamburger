@@ -22,9 +22,6 @@
   z-index: 2;
 }
 
-#menu .menu-icon .checker:focus {
-  background-color: #00000000;
-
 #menu .menu-icon .hamburger {
   position: relative;
   display: flex;
